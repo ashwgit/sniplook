@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sniplook"
+authors = [ 
+    {name = "Ashwini Kumar", email = "kr.ashwini07@gmail.com"}
+]
+version = "0.1"
+dependencies = []
+requires-python = ">=3.12"
+description = "Add and Search text snippets"
+readme = "README.md"
+license= "LICENCE"
+[project.optional-dependencies]
+dev = ["coverage", "isort", "pyrefly", "ruff"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+only-packages = true
+
+[project.scripts]
+sniplook = "src.cli:entry_point"
+
