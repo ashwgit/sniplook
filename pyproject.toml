@@ -9,10 +9,10 @@ authors = [
 ]
 version = "0.1"
 dependencies = []
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 description = "Add and Search text snippets"
 readme = "README.md"
-license= "LICENCE"
+licence= "LICENCE"
 [project.optional-dependencies]
 dev = ["coverage", "isort", "pyrefly", "ruff"]
 
