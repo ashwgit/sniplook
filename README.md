@@ -15,7 +15,7 @@ pip install hatchling
 1. From Source 
 
 ```bash
-git clone https://github.com/ashwini3326/sniplook.git
+git clone https://github.com/ashwgit/sniplook.git
 cd sniplook
 pip install .
 ```
